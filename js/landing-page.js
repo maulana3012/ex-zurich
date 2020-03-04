@@ -1595,15 +1595,11 @@ var Timeline = {
          */
         timelineClick: function(e) {
             e.preventDefault();
-            if (VideoPlayerInterface.hasPlayed) {
-                var container = $('#jsTimelineIndicator');
-                if (!container.is(e.target) && container.has(e.target).length === 0) {
-                    var timeline_width = $('#jsTimelineContainer').width();
-                    Timeline.setProgress((e.pageX - $('#jsTimelineProgress').offset().left) / timeline_width);
-                    Timeline.updateInVideo();
-                }
-            } else {
-                VideoPlayerInterface.actions.play();
+            var container = $('#jsTimelineIndicator');
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                var timeline_width = $('#jsTimelineContainer').width();
+                Timeline.setProgress((e.pageX - $('#jsTimelineProgress').offset().left) / timeline_width);
+                Timeline.updateInVideo();
             }
         },
 
@@ -1654,18 +1650,14 @@ var Timeline = {
          * Skip back to the last state in the video
          */
         skipBack: function() {
-            if (VideoPlayerInterface.hasPlayed) {
-                VideoPlayerInterface.actions.skipBack();
-            }
+            VideoPlayerInterface.actions.skipBack();
         },
 
         /**
          * Skip forward to the next state in the video
          */
         skipForward: function() {
-            if (VideoPlayerInterface.hasPlayed) {
-                VideoPlayerInterface.actions.skipForward();
-            }
+            VideoPlayerInterface.actions.skipForward();
         },
 
         /**
@@ -1683,8 +1675,6 @@ var VideoPlayerInterface = {
     updateInterval: null,
 
     RTCVisit: {},
-
-    hasPlayed: false,
 
     isPlaying: false,
 
@@ -1752,7 +1742,6 @@ var VideoPlayerInterface = {
 
                 // Update is playing
                 VideoPlayerInterface.isPlaying = (!times.status.paused);
-                VideoPlayerInterface.hasPlayed = VideoPlayerInterface.isPlaying || VideoPlayerInterface.hasPlayed;
 
                 // Get data from video
                 VideoPlayerInterface.getVisitData();
@@ -2293,15 +2282,10 @@ var MobileOrientationHandler = {
      */
     resizeVideoArea: function() {
         var mainWidth;
-        if ($(window).trueInnerWidth() / $(window).trueInnerHeight() >= 16 / 9 &&
-            MobileOrientationHandler.shouldEnable() &&
-            $("#jsTopWrapper").hasClass("top-wrapper--no-cta")
-        ) {
-            mainWidth = (Math.ceil($(window).trueInnerHeight() * (16 / 9))) - $(".cta--side").width();
-        } else if ($(window).trueInnerWidth() / $(window).trueInnerHeight() > 16 / 9 &&
-            MobileOrientationHandler.shouldEnable()
-        ) {
-            mainWidth = Math.ceil($(window).trueInnerHeight() * (16 / 9));
+        if ($(window).innerWidth() / $(window).innerHeight() >= 16 / 9 && MobileOrientationHandler.shouldEnable() && $("#jsTopWrapper").hasClass("top-wrapper--no-cta")) {
+            mainWidth = (Math.ceil($(window).innerHeight() * (16 / 9))) - $(".cta--side").width();
+        } else if ($(window).innerWidth() / $(window).innerHeight() > 16 / 9 && MobileOrientationHandler.shouldEnable()) {
+            mainWidth = Math.ceil($(window).innerHeight() * (16 / 9));
         } else {
             mainWidth = "";
         }
@@ -2394,15 +2378,6 @@ var FullScreenHandler = {
     },
 
     /**
-     * Checks whether the window has enough height to allow a full height timeline
-     *
-     * @return {boolean} Whether the window has enough height to allow a full height timeline
-     */
-    allowFullHeightTimeline: function() {
-        return $(window).trueInnerHeight() - ($(window).trueInnerWidth() * 9/16) >= 20;
-    },
-
-    /**
      * Toggles the fullscreen version of the landing page
      */
     toggle: function() {
@@ -2476,42 +2451,14 @@ var FullScreenHandler = {
          * Handles the window resizing, to change the fullscreen class if the aspect ratio is narrower than 16:9
          */
         handleResize: function() {
-            var width = $(window).trueInnerWidth(),
-                height = $(window).trueInnerHeight();
+            var width = $(window).innerWidth(),
+                height = $(window).innerHeight();
 
             if (FullScreenHandler.isRatioNarrowerThan([width, height], [16, 9])) {
                 $("html").addClass("less-16-9");
             } else {
                 $("html").removeClass("less-16-9");
             }
-
-            $("html").toggleClass("full-height-timeline", FullScreenHandler.allowFullHeightTimeline());
         }
     }
 };
-
-/**
- * Gets the true inner height of an element. This allows for browser features such as tabs in Mobile Safari
- *
- * @return {Number}
- */
-$.fn.trueInnerHeight = function() {
-    if (this[0].innerHeight) {
-        return this[0].innerHeight;
-    }
-
-    return $(this).innerHeight();
-};
-
-/**
- * Gets the true inner width of an element
- *
- * @return {Number}
- */
-$.fn.trueInnerWidth = function() {
-    if (this[0].innerWidth) {
-        return this[0].innerWidth;
-    }
-
-    return $(this).innerWidth();
-}
