@@ -43,21 +43,21 @@
 
 .timeline {
     color: #FFFFFF;
-    background-color: #003366;
+    background-color: #005bab;
     font-size: 3em;
 }
 
 .timeline__cover {
-    background: #003366;
+    background: #005bab;
 }
 
 .timeline__controls {
-    background-color: #003366;
+    background-color: #005bab;
     border-color: #FFFFFF;
 }
 
 .timeline__button {
-    background-color: #003366;
+    background-color: #005bab;
     cursor: pointer;
 }
 
@@ -422,21 +422,21 @@
 
     .timeline {
         color: #FFFFFF;
-        background-color: #003366;
+        background-color: #005bab;
         font-size: 18px;
     }
 
     .timeline__cover {
-        background: #003366;
+        background: #005bab;
     }
 
     .timeline__controls {
-        background-color: #003366;
+        background-color: #005bab;
         border-color: #FFFFFF;
     }
 
     .timeline__button {
-        background-color: #003366;
+        background-color: #005bab;
         cursor: pointer;
     }
 
@@ -816,21 +816,21 @@
 
     .timeline {
         color: #FFFFFF;
-        background-color: #003366;
+        background-color: #005bab;
         font-size: 18px;
     }
 
     .timeline__cover {
-        background: #003366;
+        background: #005bab;
     }
 
     .timeline__controls {
-        background-color: #003366;
+        background-color: #005bab;
         border-color: #FFFFFF;
     }
 
     .timeline__button {
-        background-color: #003366;
+        background-color: #005bab;
         cursor: pointer;
     }
 
@@ -2045,8 +2045,8 @@
 
     button.btn {
         font-size: 0.8em !important;
-        background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-        border: 1px solid #003366;
+        background: linear-gradient(-600deg, #FFFFFF 88%, #005bab 12%);
+        border: 1px solid #005bab;
         border-radius: 0.7em;
         width: 110px !important;
         height: 30px;
@@ -2080,7 +2080,7 @@
     }
 
     .rnd-green {
-        background-color: #003366;
+        background-color: #005bab;
         color: #FFFFFF;
     }
 
