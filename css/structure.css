@@ -1249,12 +1249,12 @@ sub {
 
 @media screen and (max-width: 1640px) {
     .main {
-        width: 600px;
+        width: 580px;
     }
 
     .player__wrapper {
-        width: 600px;
-        height: 340px;
+        width: 580px;
+        height: 320px;
     }
 
     .timeline-chapters {
@@ -1274,11 +1274,11 @@ sub {
     }
 
     .timeline__controls--center {
-        width: 380px;
+        width: 340px;
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 380px;
+        width: 340px;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
