@@ -1,5 +1,5 @@
     body {
-        padding-top: 90px;
+        padding-top: 180px;
         background: url("../images/background/bacground.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -7,22 +7,20 @@
     }
 
     .navbar-zur {
-        background: #ffffff;
+        background: transparent;
         border: none;
     }
 
     .logo-dev {
-        width: 38%;
+        width: 20%;
         height: auto;
         margin-left: 40%;
         padding: 10px 10px 10px 10px;
     }
-
     /*FOOTER*/
-
     footer {
       position: fixed;
-      height: 90px;
+      height: 120px;
       bottom: 0;
       width: 100%;
       background: white;
@@ -40,7 +38,7 @@
     }
 
     .footer-middle {
-      padding-top: 1em;
+      padding-top: 3em;
       color: white;
     }
 
@@ -89,6 +87,10 @@
       color: #44BCDD;
     }
 
+    .social-circle {
+      
+    }
+
     .social-circle li a {
       display: inline-block;
       position: relative;
@@ -98,14 +100,14 @@
       border-radius: 20%;
       border: 2px #005bab solid;
       text-align: center;
-      width: 60px;
-      height: 60px;
-      font-size: 15px;
+      width: 90px;
+      height: 90px;
+      font-size: 25px;
     }
 
     .social-circle li i {
       margin: 0;
-      line-height: 60px;
+      line-height: 90px;
       text-align: center;
     }
 
@@ -136,7 +138,7 @@
     }
 
     .copyr {
-        font-size: 1em;
+        font-size: 1.5em;
         color: black;
     }
 
@@ -196,16 +198,87 @@
 
     .grid-item {
       padding: 10px;
-      font-size: 1em;
+      font-size: 1.5em;
       text-align: center;
     }
 
     @media screen and (max-width: 2460px) {
+        body {
+            padding-top: 100px;
+            background: url("../images/background/bacground.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; 
+        }
+        .navbar-zur {
+          background:transparent;
+        }
         .logo-dev {
             width: 15%;
             height: auto;
             margin-left: 45%;
             padding: 10px 10px 10px 10px;
+        }
+
+        .icon-sosmed{
+          --timeline-bgX: 0%;
+            --timeline-bgY: 60%;
+
+            display: block;
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            background: url("../images/Icon-zurich.png") no-repeat;
+            background-position-y: 60%;
+            background-position: var(--timeline-bgX) var(--timeline-bgY);
+            background-size: 800% 200%;
+        }
+
+        .icon--phone {
+          width: 60px;
+          height: 60px;
+          background-position-x: calc((100%/26) * 22.3);
+            --timeline-bgY: 0%;
+        }
+
+        .icon--email {
+          width: 60px;
+          height: 60px;
+          background-position-x: calc((100%/26) * 18.55);
+            --timeline-bgY: 0%;
+        }
+
+        .icon--address {
+          width: 60px;
+          height: 60px;
+          background-position-x: calc((100%/26) * 14.85);
+            --timeline-bgY: 0%;
+        }
+
+        .grid-container {
+          display: grid;
+          grid-gap: 10px 10px;
+          grid-template-columns: 80px auto 80px auto 80px auto;
+          padding: 10px;
+        }
+
+        .grid-item {
+          padding: 10px;
+          font-size: 1.5em;
+          text-align: center;
+        }
+
+        .grid-container {
+          display: grid;
+          grid-gap: 10px 10px;
+          grid-template-columns: 80px auto 80px auto 80px auto;
+          padding: 10px;
+        }
+
+        .grid-item {
+          padding: 10px;
+          font-size: 1.5em;
+          text-align: center;
         }
 
         
@@ -324,6 +397,10 @@
             padding: 10px 10px 10px 10px;
         }
 
+        .navbar-zur {
+          background:transparent;
+        }
+
         .copyr {
             font-size: 1em;
             color: black;
@@ -352,6 +429,28 @@
             padding: 10px 10px 10px 10px;
         }
 
+        .navbar-zur {
+          background:transparent;
+        }
+
+        .copyr {
+            font-size: 1em;
+            color: black;
+        }
+
+        .grid-container {
+          display: grid;
+          grid-gap: 10px 10px;
+          grid-template-columns: 80px auto 80px auto 80px auto;
+          padding: 10px;
+        }
+
+        .grid-item {
+          padding: 10px;
+          font-size: 1em;
+          text-align: center;
+        }
+
         
     }
 
@@ -361,6 +460,28 @@
             height: auto;
             margin-left: 45%;
             padding: 5px 5px 5px 5px;
+        }
+
+        .navbar-zur {
+          background:transparent;
+        }
+
+        .copyr {
+            font-size: 1em;
+            color: black;
+        }
+
+        .grid-container {
+          display: grid;
+          grid-gap: 10px 10px;
+          grid-template-columns: 80px auto 80px auto 80px auto;
+          padding: 10px;
+        }
+
+        .grid-item {
+          padding: 10px;
+          font-size: 1em;
+          text-align: center;
         }
 
         
@@ -374,5 +495,26 @@
             margin-left: 45%;
         }
 
-        
+
+        .navbar-zur {
+          background:transparent;
+        }
+
+        .copyr {
+            font-size: 1em;
+            color: black;
+        }
+
+        .grid-container {
+          display: grid;
+          grid-gap: 10px 10px;
+          grid-template-columns: 80px auto 80px auto 80px auto;
+          padding: 10px;
+        }
+
+        .grid-item {
+          padding: 10px;
+          font-size: 1em;
+          text-align: center;
+        } 
     }
