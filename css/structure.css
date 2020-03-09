@@ -1258,7 +1258,7 @@ sub {
     }
 
     .timeline-chapters {
-        line-height: 16px !important;
+        line-height: 27px !important;
     }
 
     .fullscreen .timeline-chapters {
@@ -1410,7 +1410,7 @@ sub {
     }
 
     .timeline-chapters {
-        line-height: 16px !important;
+        line-height: 40px !important;
     }
 
     .fullscreen .timeline-chapters {
