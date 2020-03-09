@@ -1,5 +1,5 @@
     body {
-        padding-top: 180px;
+        padding-top: 210px;
         background: url("../images/background/bacground.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -102,7 +102,7 @@
       text-align: center;
       width: 60px;
       height: 60px;
-      font-size: 25px;
+      font-size: 18px;
     }
 
     .social-circle li i {
