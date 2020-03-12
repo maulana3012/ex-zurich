@@ -910,7 +910,7 @@
   }
 
   body > .container-fluid {
-    padding: 75px 15px 0;
+    padding: 165px 15px 0;
   }
   .container-fluid .text-muted {
     margin: 20px 0;
@@ -926,9 +926,9 @@
   }
 
   .logo-dev {
-      width: 10%;
+      width: 35%;
       height: auto;
-      margin-left: 45%;
+      margin-left: 33%;
       padding: 10px 10px 10px 10px;
   }
 
@@ -1081,17 +1081,17 @@
     }
 
     .fphone {
-      font-size: 3.5em;
+      font-size: 2.5em;
       text-shadow: 1px 1px 5px #ffffff;
     }
 
     .fmail {
-      font-size: 3.5em;
+      font-size: 2.5em;
       text-shadow: 1px 1px 5px #ffffff;
     }
 
     .faddress {
-      font-size: 3.5em;
+      font-size: 2.5em;
       text-shadow: 1px 1px 5px #ffffff;
     }
 
