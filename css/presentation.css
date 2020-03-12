@@ -837,7 +837,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 55px;
+        width: 35px;
     }
 
     .fullscreen .timeline__button--skip-back,
@@ -848,12 +848,12 @@
 
     .timeline__button--settings,
     .timeline__button--fullscreen {
-        width: 70px;
+        width: 20px;
         text-align: center;
     }
 
     .timeline__button--volume {
-        width: 40px;
+        width: 30px;
     }
 
     .fullscreen .timeline__button--volume {
@@ -866,8 +866,8 @@
 
         display: block;
         margin: 0 auto;
-        width: 30px;
-        height: 30px;
+        width: 22px;
+        height: 22px;
         background: url("../images/timeline_controls.png") no-repeat;
         background-position-y: 50%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
@@ -893,15 +893,15 @@
     }
 
     .timeline__button-icon--play {
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
         background-position-x: calc((100%/26) * 0);
         --timeline-bgY: 100%;
     }
 
     .timeline__button-icon--pause {
-         width: 25px;
-        height: 25px;
+         width: 23px;
+        height: 23px;
         background-position-x: calc((100%/26) * 1);
         --timeline-bgX: calc((100%/26) * 1);
     }
@@ -1064,96 +1064,6 @@
     .timeline-volume__ball:active,
     .focusable.timeline-volume__ball:focus {
         background-color: #fff;
-    }
-
-    .timeline__settings-popout,
-    .timeline__settings-quality,
-    .timeline__settings-language,
-    .timeline__settings-cc {
-        position: absolute;
-        top: -209px;
-        right: 340px;
-        padding: 16px;
-        width: 220px;
-        height: 210px;
-        background-color: #2e2e2e;
-        font-size: 17px;
-    }
-
-    .fullscreen .timeline__settings-popout,
-    .fullscreen .timeline__settings-quality,
-    .fullscreen .timeline__settings-language,
-    .fullscreen .timeline__settings-cc {
-        right: calc(100% - 65px);
-    }
-
-    .fullscreen .timeline--no-volume .timeline__settings-popout,
-    .fullscreen .timeline--no-volume .timeline__settings-quality,
-    .fullscreen .timeline--no-volume .timeline__settings-language,
-    .fullscreen .timeline--no-volume .timeline__settings-cc {
-        right: 50%;
-    }
-
-    .timeline--no-volume .timeline__settings-popout,
-    .timeline--no-volume .timeline__settings-quality,
-    .timeline--no-volume .timeline__settings-language,
-    .timeline--no-volume .timeline__settings-cc {
-        right: 170px;
-    }
-
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
-        right: 135px;
-    }
-
-    .timeline__settings-heading {
-        margin-bottom: 12px;
-        padding-bottom: 12px;
-        border-bottom: 1px solid #818888;
-        line-height: 18px;
-    }
-
-    .timeline__settings-heading--clickable,
-    .timeline__settings-item {
-        cursor: pointer;
-    }
-
-    .timeline__settings-heading--clickable:hover .timeline__button-icon,
-    .timeline__settings-heading--clickable:active .timeline__button-icon,
-    .focusable.timeline__settings-heading--clickable:focus .timeline__button-icon,
-    .timeline__settings-item:hover .timeline__button-icon,
-    .timeline__settings-item:active .timeline__button-icon,
-    .focusable.timeline__settings-item:focus .timeline__button-icon {
-        background-position-y: 100%;
-        --timeline-bgY: 100%;
-    }
-
-    .timeline__settings-item:hover .timeline__settings-text,
-    .timeline__settings-item:active .timeline__settings-text,
-    .focusable.timeline__settings-item:focus .timeline__settings-text {
-        color: #fff;
-    }
-
-    .timeline__settings-icon--left {
-        float: left;
-        margin-right: 15px;
-    }
-
-    .timeline__settings-text {
-        float: left;
-        margin-bottom: 9px;
-        color: #818888;
-        line-height: 25px;
-    }
-
-    .timeline__settings-quality .timeline__settings-text {
-        margin-bottom: 0;
-    }
-
-    .timeline__settings-icon--right {
-        float: right;
     }
 
     .timeline__settings-icon .timeline__button-icon,

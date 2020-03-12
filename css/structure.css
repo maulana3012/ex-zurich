@@ -70,7 +70,7 @@ sub {
 
 .player__wrapper {
     width: 2520px;
-    height: 1420px;
+    height: 1380px;
 }
 
 .fullscreen .player__wrapper {
@@ -849,7 +849,7 @@ sub {
         position: relative;
         display: block;
         margin: 0 auto;
-        width: 1000px;
+        width: 750px;
     }
 
     .main::after {
@@ -881,8 +881,8 @@ sub {
     }
 
     .player__wrapper {
-        width: 1000px;
-        height: 540px;
+        width: 750px;
+        height: 420px;
     }
 
     .fullscreen .player__wrapper {
@@ -921,7 +921,7 @@ sub {
 
     .timeline,
     .timeline__controls {
-        height: 60px;
+        height: 40px;
     }
 
     .fullscreen .timeline {
@@ -940,7 +940,7 @@ sub {
     }
 
     .timeline__controls--left {
-        width: 200px;
+        width: 140px;
         padding: 0 15px;
         border-right: 5px solid;
     }
@@ -952,7 +952,7 @@ sub {
 
     .timeline__controls--center {
         position: relative;
-        width: 540px;
+        width: 410px;
     }
 
     .fullscreen .timeline__controls--center {
@@ -973,7 +973,7 @@ sub {
     }
 
     .timeline__controls--right {
-        width:260px;
+        width:200px;
         padding: 0 15px;
         border-left: 5px solid;
     }
@@ -984,7 +984,7 @@ sub {
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 305px;
+        width: 200px;
         text-align: center;
     }
 
@@ -1141,7 +1141,7 @@ sub {
     }
 
     .timeline-volume__bg {
-        margin-top: 25px;
+        margin-top: 15px;
         width: 100%;
         height: 10px;
     }
@@ -1217,11 +1217,11 @@ sub {
 
     .top-wrapper--no-cta .main,
     .top-wrapper--no-promo .main{
-        width: 1000px;
+        width: 750px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 1000px;
+        width: 750px;
     }
 
     .fullscreen .top-wrapper--no-cta .player {
@@ -1230,16 +1230,16 @@ sub {
 
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
-        width: 1000px;
+        width: 750px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 1000px;
+        width: 750px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--center,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--center {
-        width: 1000px;
+        width: 750px;
     }
 
     .fullscreen .top-wrapper--no-promo .timeline__controls--center {
@@ -1249,12 +1249,12 @@ sub {
 
 @media screen and (max-width: 1640px) {
     .main {
-        width: 600px;
+        width: 580px;
     }
 
     .player__wrapper {
-        width: 600px;
-        height: 340px;
+        width: 580px;
+        height: 320px;
     }
 
     .timeline-chapters {
@@ -1274,20 +1274,20 @@ sub {
     }
 
     .timeline__controls--center {
-        width: 380px;
+        width: 360px;
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 380px;
+        width: 370px;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
-        width: 380px;
+        width: 370px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 380px;
+        width: 370px;
     }
 
     .timeline__controls--right {
@@ -1369,11 +1369,11 @@ sub {
 
     .top-wrapper--no-cta .main,
     .top-wrapper--no-promo .main{
-        width: 600px;
+        width: 580px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 600px;
+        width: 580px;
     }
 
     .fullscreen .top-wrapper--no-cta .player {
@@ -1382,16 +1382,16 @@ sub {
 
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
-        width: 600px;
+        width: 580px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 600px;
+        width: 580px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--center,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--center {
-        width: 600px;
+        width: 580px;
     }
 
     .fullscreen .top-wrapper--no-promo .timeline__controls--center {
