@@ -1730,33 +1730,37 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__controls--left {
-        width: 180px;
+        width: 200px;
+    }
+
+    .timeline__controls--center{
+        width: 480px;
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 660px;
+        width: 480px;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
-        width: 380px;
+        width: 480px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 380px;
+        width: 480px;
     }
 
     .timeline__controls--right {
-        width: 120px;
+        width: 220px;
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 100px;
+        width: 220px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--right,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--right {
-        width: 150px;
+        width: 220px;
     }
 
     .timeline-volume {
