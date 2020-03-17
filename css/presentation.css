@@ -1576,34 +1576,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 26px;
     }
 
-    .fullscreen .timeline__button-icon {
-        width: 10px;
-        height: 10px;
-    }
-
-    .fullscreen .timeline__button-icon--play,
-    .fullscreen .timeline__button-icon--pause {
-        width: 20px;
-        height: 20px;
-    }
-
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 45px;
-    }
-
-    .fullscreen .timeline__button--skip-back,
-    .fullscreen .timeline__button--skip-forward,
-    .fullscreen .timeline__button--play-pause {
-        width: 15px;
+        width: 100px;
     }
 
     .timeline__button--settings {
-        display: none;
-    }
-
-    .fullscreen .timeline__button--settings {
         display: none;
     }
 
@@ -1611,24 +1590,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none;
     }
 
-    .fullscreen .timeline__button--fullscreen {
-        width: 20px;
-    }
-
     .timeline__button--volume {
         display: none;
-    }
-
-    .fullscreen .timeline__button--volume {
-        display: none;
-    }
-
-    .timeline__settings-icon--arrow .timeline__button-icon,
-    .timeline__settings-icon--small .timeline__button-icon,
-    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
-    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
-        width: 15px;
-        height: 15px;
     }
 
     .timeline__settings-icon--left.timeline__settings-icon--small {
