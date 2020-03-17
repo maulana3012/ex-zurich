@@ -1270,11 +1270,11 @@ sub {
     }
 
     .timeline__controls--left {
-        width: 130px;
+        width: 140px;
     }
 
     .timeline__controls--center {
-        width: 360px;
+        width: 380px;
     }
 
     .timeline--no-volume .timeline__controls--center {
