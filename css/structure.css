@@ -1719,7 +1719,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .fullscreen .player__wrapper {
         width: 950px;
-        height: 435px;
+        height: 235px;
     }
 
     .timeline-chapters {
