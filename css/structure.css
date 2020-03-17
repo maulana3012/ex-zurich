@@ -1743,7 +1743,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__controls--center{
-        width: 500px;
+        width: 550px;
     }
 
     .fullscreen .timeline__controls--center{
@@ -1751,16 +1751,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 500px;
+        width: 550px;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
-        width: 500px;
+        width: 550px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 500px;
+        width: 550px;
     }
 
     .timeline__controls--right {
