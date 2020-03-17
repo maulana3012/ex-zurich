@@ -1615,39 +1615,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__button--volume {
-        z-index: 1;
-        height: 100%;
-        width: 15px !important;
+        display: none;
     }
 
     .fullscreen .timeline__button--volume {
         margin: 0;
         height: 100%;
         width: 35px !important;
-    }
-
-    .timeline__settings-popout,
-    .timeline__settings-quality,
-    .timeline__settings-language,
-    .timeline__settings-cc {
-        top: -180px;
-        right: 150px;
-        padding: 13px;
-        height: 180px;
-        width: 200px;
-        font-size: 15px;
-    }
-
-    .fullscreen .timeline__settings-popout,
-    .fullscreen .timeline__settings-quality,
-    .fullscreen .timeline__settings-language,
-    .fullscreen .timeline__settings-cc {
-        right: calc(100% - 50px);
-    }
-
-    .timeline__settings-heading {
-        padding-bottom: 8px;
-        line-height: 15px;
     }
 
     .timeline__settings-icon--arrow .timeline__button-icon,
@@ -1662,20 +1636,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin: 5px 10px 5px 0;
     }
 
-    .timeline--no-volume .timeline__settings-popout,
-    .timeline--no-volume .timeline__settings-quality,
-    .timeline--no-volume .timeline__settings-language,
-    .timeline--no-volume .timeline__settings-cc {
-        right: 80px;
-    }
-
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
-    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
-        right: 80px;
-    }
-
     .timeline-chapters {
         font-size: 1.2em;
     }
@@ -1685,13 +1645,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline-volume__bg {
-        background-color : #FFFFFF;
-        border-radius: 20px;
+        display: none;
     }
 
     .timeline-volume__level {
-        background-color:#0057e7;
-        border-radius: 20px;
+        display: none;
     }
 }
 
