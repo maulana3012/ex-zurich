@@ -2074,8 +2074,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
       border-radius: 20%;
       border: 2px #005bab solid;
       text-align: center;
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       font-size: 15px;
     }
 
@@ -2124,8 +2124,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
         display: block;
         margin: 0 auto;
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
@@ -2133,22 +2133,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .icon--phone {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       background-position-x: calc((100%/26) * 22.3);
         --timeline-bgY: 0%;
     }
 
     .icon--email {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       background-position-x: calc((100%/26) * 18.55);
         --timeline-bgY: 0%;
     }
 
     .icon--address {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       background-position-x: calc((100%/26) * 14.85);
         --timeline-bgY: 0%;
     }
