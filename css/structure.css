@@ -1894,6 +1894,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 570px;
     }
 
+    .timeline__controls--center {
+        width: 570px;
+    }
+
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
         width: 570px;
