@@ -1717,6 +1717,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 535px;
     }
 
+    .fullscreen .player__wrapper {
+        width: 950px;
+        height: 435px;
+    }
+
     .timeline-chapters {
         line-height: 40px !important;
     }
