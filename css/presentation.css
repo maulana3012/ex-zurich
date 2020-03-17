@@ -1629,7 +1629,129 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
 
 @media only screen 
@@ -1637,7 +1759,129 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) { 
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
 
 /*END iphone X */
@@ -1648,14 +1892,258 @@ and (orientation : landscape) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : portrait) { 
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
  }
 
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : landscape) {
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
 
 /*End Iphone 6+,7+,8+*/
@@ -1665,14 +2153,258 @@ and (orientation : landscape) {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) { 
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
 
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : landscape) { 
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
 /*end iphone 6,7,8*/
 
@@ -1681,12 +2413,256 @@ and (orientation : landscape) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : portrait) { 
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : landscape) {
+.timeline {
+        font-size: 14px;
+    }
 
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--play,
+    .timeline__button-icon--pause {
+        width: 26px;
+        height: 26px;
+    }
+
+    .fullscreen .timeline__button-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .fullscreen .timeline__button-icon--play,
+    .fullscreen .timeline__button-icon--pause {
+        width: 20px;
+        height: 20px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward,
+    .timeline__button--play-pause {
+        width: 45px;
+    }
+
+    .timeline__button--settings {
+        display: none;
+    }
+
+    .timeline__button--fullscreen {
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--fullscreen {
+        width: 20px;
+    }
+
+    .timeline__button--volume {
+        z-index: 1;
+        height: 100%;
+        width: 15px !important;
+    }
+
+    .fullscreen .timeline__button--volume {
+        margin: 0;
+        height: 100%;
+        width: 35px !important;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc {
+        top: -180px;
+        right: 150px;
+        padding: 13px;
+        height: 180px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .fullscreen .timeline__settings-popout,
+    .fullscreen .timeline__settings-quality,
+    .fullscreen .timeline__settings-language,
+    .fullscreen .timeline__settings-cc {
+        right: calc(100% - 50px);
+    }
+
+    .timeline__settings-heading {
+        padding-bottom: 8px;
+        line-height: 15px;
+    }
+
+    .timeline__settings-icon--arrow .timeline__button-icon,
+    .timeline__settings-icon--small .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--arrow .timeline__button-icon,
+    .fullscreen .timeline__settings-icon--small .timeline__button-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .timeline__settings-icon--left.timeline__settings-icon--small {
+        margin: 5px 10px 5px 0;
+    }
+
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 80px;
+    }
+
+    .timeline-chapters {
+        font-size: 1.2em;
+    }
+
+    .fullscreen .timeline-chapters {
+        font-size: 1em;
+    }
+
+    .timeline-volume__bg {
+        background-color : #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .timeline-volume__level {
+        background-color:#0057e7;
+        border-radius: 20px;
+    }
 }
