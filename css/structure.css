@@ -1777,49 +1777,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline-volume {
-        width: 40px;
+        display: none;
     }
 
     .timeline__controls--right-no-fs .timeline-volume {
-        width: 115px;
+        display: none;
     }
 
     .timeline-volume__bg {
-        margin-top: 12px;
-        height: 5px;
+        display: none;
     }
 
     .timeline-volume__container {
-        width: 40px;
+        display: none;
     }
 
     .timeline__controls--right-no-fs .timeline-volume__container {
         width: 92px;
     }
 
-    .fullscreen .timeline-volume__level {
-        top: -10px;
-        height: 10px;
-    }
-
     .timeline-volume__level {
-        top: -5px;
-        padding-left: 8px;
-        height: 5px;
+        display: none;
     }
 
     .timeline-volume__ball {
-        top: -2px;
-        right: -5px;
-        width: 10px;
-        height: 10px;
-    }
-
-    .fullscreen .timeline-volume__ball {
-        top: -4px;
-        right: -2px;
-        width: 20px;
-        height: 20px;
+        display: none;
     } 
 
     .top-wrapper--no-cta .main,
