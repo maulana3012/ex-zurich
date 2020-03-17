@@ -85,33 +85,38 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Introducción",
+            "label": "Example-1",
             "states": [
                 {
                     "cardId": "START",
-                    "width": 20
+                    "width": 35
                 }
             ]
         },
         {
-            "label": "Su Cuenta",
+            "label": "Example-2",
             "states": [
                 {
-                    "cardId": "4ca807ee",
-                    "width": 20
-                },
-                {
-                    "cardId": "fd0d8f44",
-                    "width": 20
+                    "cardId": "77a834f0",
+                    "width": 35
                 }
             ]
         },
         {
-            "label": "Gracias",
+            "label": "Example-3",
             "states": [
                 {
-                    "cardId": "75e4f764",
-                    "width": 40
+                    "cardId": "7b0123a5",
+                    "width": 25
+                }
+            ]
+        },
+        {
+            "label": "Example-4",
+            "states": [
+                {
+                    "cardId": "7b0123a5",
+                    "width": 25
                 }
             ]
         }

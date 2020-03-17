@@ -114,7 +114,7 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Introduction",
+            "label": "Example-1",
             "states": [
                 {
                     "cardId": "START",
@@ -123,7 +123,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Your Account",
+            "label": "Example-2",
             "states": [
                 {
                     "cardId": "77a834f0",
@@ -132,7 +132,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Thank You",
+            "label": "Example-3",
             "states": [
                 {
                     "cardId": "7b0123a5",
@@ -141,7 +141,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Thank You",
+            "label": "Example-4",
             "states": [
                 {
                     "cardId": "7b0123a5",
