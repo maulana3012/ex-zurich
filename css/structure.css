@@ -952,7 +952,7 @@ sub {
 
     .timeline__controls--center {
         position: relative;
-        width: 570px;
+        width: 580px;
     }
 
     .fullscreen .timeline__controls--center {
