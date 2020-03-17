@@ -1718,7 +1718,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .fullscreen .player__wrapper {
-        width: 950px;
+        width: 650px;
         height: 235px;
     }
 
@@ -1738,7 +1738,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 220px;
     }
 
+    .fullscreen .timeline__controls--left {
+        width: 220px;
+    }
+
     .timeline__controls--center{
+        width: 500px;
+    }
+
+    .fullscreen .timeline__controls--center{
         width: 500px;
     }
 
