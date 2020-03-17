@@ -837,7 +837,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 35px;
+        width: 60px;
     }
 
     .fullscreen .timeline__button--skip-back,
@@ -1124,7 +1124,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 20px;
+        width: 30px;
     }
 
     .timeline__button--settings {
