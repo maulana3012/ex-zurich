@@ -1891,16 +1891,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 620px;
+        width: 570px;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
     .top-wrapper--no-cta .timeline__controls--center {
-        width: 620px;
+        width: 570px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 620px;
+        width: 570px;
     }
 
     .timeline__controls--right {
