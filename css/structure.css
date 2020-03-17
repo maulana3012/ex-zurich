@@ -1723,15 +1723,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline-chapters {
-        line-height: 40px !important;
-    }
-
-    .fullscreen .timeline-chapters {
-        line-height: 15px !important;
+        line-height: 80px !important;
     }
 
     .timeline, .timeline__controls {
-        height: 40px;
+        height: 80px;
     }
 
     .timeline__controls--left {

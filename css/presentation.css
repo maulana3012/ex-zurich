@@ -1490,31 +1490,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__button-icon {
-        width: 25px;
-        height: 25px;
+        width: 45px;
+        height: 45px;
     }
 
     .timeline__button-icon--play,
     .timeline__button-icon--pause {
-        width: 26px;
-        height: 26px;
-    }
-
-    .fullscreen .timeline__button-icon {
-        width: 18px;
-        height: 18px;
-    }
-
-    .fullscreen .timeline__button-icon--play,
-    .fullscreen .timeline__button-icon--pause {
-        width: 20px;
-        height: 20px;
+        width: 46px;
+        height: 46px;
     }
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 60px;
+        width: 100px;
     }
 
     .timeline__button--settings {
