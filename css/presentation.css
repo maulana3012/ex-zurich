@@ -1514,7 +1514,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 45px;
+        width: 60px;
     }
 
     .timeline__button--settings {
@@ -1547,7 +1547,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 15px;
         height: 15px;
     }
-    
+
     .timeline-chapters {
         font-size: 1.2em;
     }

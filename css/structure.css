@@ -1730,7 +1730,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__controls--left {
-        width: 250px;
+        width: 220px;
     }
 
     .timeline__controls--center{
@@ -1751,16 +1751,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__controls--right {
-        width: 320px;
+        width: 230px;
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 320px;
+        width: 230px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--right,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--right {
-        width: 320px;
+        width: 230px;
     }
 
     .timeline-volume {
