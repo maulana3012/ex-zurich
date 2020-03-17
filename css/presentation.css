@@ -1557,11 +1557,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline-volume__bg {
-        display: none;
+        background-color : #FFFFFF;
+        border-radius: 20px;
     }
 
     .timeline-volume__level {
-        display: none;
+        background-color:#0057e7;
+        border-radius: 20px;
     }
 }
 
