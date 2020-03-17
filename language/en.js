@@ -139,6 +139,15 @@ var Translations = {
                     "width": 25
                 }
             ]
+        },
+        {
+            "label": "Thank You",
+            "states": [
+                {
+                    "cardId": "7b0123a5",
+                    "width": 25
+                }
+            ]
         }
     ]
 }

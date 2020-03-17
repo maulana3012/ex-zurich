@@ -1735,7 +1735,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__controls--left {
-        width: 320px;
+        width: 220px;
     }
 
     .timeline__controls--center{
