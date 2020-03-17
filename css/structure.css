@@ -1843,16 +1843,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         line-height: 40px !important;
     }
 
-    .fullscreen .timeline-chapters {
-        line-height: 15px !important;
-    }
-
     .timeline, .timeline__controls {
         height: 40px;
     }
 
     .timeline__controls--left {
-        width: 180px;
+        width: 280px;
     }
 
     .timeline--no-volume .timeline__controls--center {
@@ -1873,40 +1869,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .timeline__controls--right {
-        width: 120px;
+        display: none;
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 100px;
+        display: none;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--right,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--right {
-        width: 150px;
-    }
-
-    .fullscreen .timeline-volume {
-        width: calc(100% - 80px);
-    }
-
-    .fullscreen .timeline-volume__bg {
-        margin-top: calc(2.5vh - 5px);
-        height: 10px;
-        width: 85px;
-    }
-
-    .fullscreen.less-16-9 .timeline-volume__bg {
-        margin-top: calc((2.5vw * 9/16) - 5px);
-    }
-
-
-    .fullscreen .timeline-volume__container {
-        width: calc(100% - 2px);
-    }
-
-    .fullscreen .timeline-volume__level {
-        top: -10px;
-        height: 10px;
+        display: none;
     }
 
     .top-wrapper--no-cta .main,
@@ -1916,10 +1888,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
         width: 950px;
-    }
-
-    .fullscreen .top-wrapper--no-cta .player {
-        width: 100%;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
@@ -1934,10 +1902,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--center,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--center {
         width: 950px;
-    }
-
-    .fullscreen .top-wrapper--no-promo .timeline__controls--center {
-        width: 70%;
     }
 }
 
