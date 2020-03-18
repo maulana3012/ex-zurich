@@ -227,6 +227,19 @@
     .pad-address {
       right: 15%;
     }
+
+    .pad-f-phone {
+      right: 7%
+    }
+
+    .pad-f-mail {
+      right: 7%
+    }
+
+    .pad-f-address {
+      right: 7%
+    }
+
 @media screen and (max-width: 2960px) {
   html {
   position: relative;
@@ -414,26 +427,26 @@
     }
 
     .fheader {
-      font-size: 2.1em;
+      font-size: 2.3em;
       padding: 15px 15px 15px 15px;
       color: black; 
       font-weight: bold;
     }
 
     .fphone {
-      font-size: 2em;
-      padding-top: 15px;
+      font-size: 2.2em;
+      padding-top: 25px;
       text-shadow: 1px 2px 5px #ffffff;
     }
 
     .fmail {
-      font-size: 2em;
-      padding-top: 15px;
+      font-size: 2.2em;
+      padding-top: 25px;
       text-shadow: 1px 2px 5px #ffffff;
     }
 
     .faddress {
-      font-size: 2em;
+      font-size: 2.2em;
       padding-top: 10px;
       text-shadow: 1px 2px 2px #ffffff;
     }
@@ -455,6 +468,18 @@
     }
     .pad-address {
       right: 15%;
+    }
+
+    .pad-f-phone {
+      right: 7%
+    }
+
+    .pad-f-mail {
+      right: 7%
+    }
+
+    .pad-f-address {
+      right: 7%
     }
 }
 @media screen and (max-width: 2460px) {
@@ -683,6 +708,18 @@
     }
     .pad-address {
       right: 15%;
+    }
+
+    .pad-f-phone {
+      right: 10%
+    }
+
+    .pad-f-mail {
+      right: 10%
+    }
+
+    .pad-f-address {
+      right: 10%
     }
 }
 @media screen and (max-width: 1640px) {
@@ -913,6 +950,18 @@
     }
     .pad-address {
       right: 15%;
+    }
+
+    .pad-f-phone {
+      right: 7%
+    }
+
+    .pad-f-mail {
+      right: 7%
+    }
+
+    .pad-f-address {
+      right: 7%
     }
 }
 
