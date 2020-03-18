@@ -1980,8 +1980,8 @@ and (orientation : portrait) {
     }
 
     .fheader {
-      font-size: 3.6em;
-      padding: 20px 20px 20px 20px;
+      font-size: 3.1em;
+      padding: 10px 10px 10px 10px;
       color: black; 
       font-weight: bold;
     }
@@ -2387,8 +2387,8 @@ html {
     }
 
     .fheader {
-      font-size: 3.6em;
-      padding: 20px 20px 20px 20px;
+      font-size: 3.1em;
+      padding: 10px 10px 10px 10px;
       color: black; 
       font-weight: bold;
     }
@@ -2792,8 +2792,8 @@ html {
     }
 
     .fheader {
-      font-size: 3.6em;
-      padding: 20px 20px 20px 20px;
+      font-size: 3.1em;
+      padding: 10px 10px 10px 10px;
       color: black; 
       font-weight: bold;
     }
@@ -3393,101 +3393,5 @@ html {
         padding-top: 25px;
         font-size: 1.1em;
         color: black;
-    }
-
-    .icon-sosmed{
-      --timeline-bgX: 0%;
-        --timeline-bgY: 60%;
-
-        display: block;
-        margin: 0 auto;
-        width: 60px;
-        height: 60px;
-        background: url("../images/Icon-zurich.png") no-repeat;
-        background-position-y: 60%;
-        background-position: var(--timeline-bgX) var(--timeline-bgY);
-        background-size: 800% 200%;
-    }
-
-    .icon--phone {
-      width: 60px;
-      height: 60px;
-      background-position-x: calc((100%/26) * 22.3);
-        --timeline-bgY: 0%;
-    }
-
-    .icon--email {
-      width: 60px;
-      height: 60px;
-      background-position-x: calc((100%/26) * 18.55);
-        --timeline-bgY: 0%;
-    }
-
-    .icon--address {
-      width: 60px;
-      height: 60px;
-      background-position-x: calc((100%/26) * 14.85);
-        --timeline-bgY: 0%;
-    }
-
-    .grid-container {
-      height: 200px;
-      width: 200px;
-      display: grid;
-      grid-gap: 10px;
-      grid-template: repeat(6, 1fr) / repeat(2, 1fr);
-      grid-auto-flow: column;
-    }
-
-    .grid-item {
-      padding: 10px;
-      font-size: 1.2em;
-      text-align: center;
-    }
-
-    .fheader {
-      display: none;
-    }
-
-    .fphone {
-      display: none;
-    }
-
-    .fmail {
-      display: none;
-    }
-
-    .faddress {
-      display: none;
-    }
-
-    .nod {
-      display: none;
-    }
-
-    .nod-i {
-      display: none;
-    }
-
-    .pad-phone {
-      left: 20%;
-    }
-    .pad-mail {
-      left: 3%;
-    }
-    .pad-address {
-      right: 15%;
-    }
-
-    .pad-f-phone {
-      right: 7%
-    }
-
-    .pad-f-mail {
-      right: 7%
-    }
-
-    .pad-f-address {
-      right: 7%
     }
 }
