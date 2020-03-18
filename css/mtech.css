@@ -217,6 +217,16 @@
       float: left; 
       padding-top: 65px;
     }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
+    }
 @media screen and (max-width: 2960px) {
   html {
   position: relative;
