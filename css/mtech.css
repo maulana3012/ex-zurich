@@ -446,6 +446,16 @@
     .fa-2x {
       font-size: 4em !important;
     }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
+    }
 }
 @media screen and (max-width: 2460px) {
   html {
@@ -663,6 +673,16 @@
 
     .fa-2x {
       font-size: 2.4em !important;
+    }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
     }
 }
 @media screen and (max-width: 1640px) {
@@ -883,6 +903,16 @@
 
     .fa-2x {
       font-size: 2em !important;
+    }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
     }
 }
 
