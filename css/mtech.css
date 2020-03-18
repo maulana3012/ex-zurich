@@ -162,7 +162,7 @@
 
     .icon--address {
       width: 200px;
-      height:2000px;
+      height:200px;
       background-position-x: calc((100%/26) * 14.85);
         --timeline-bgY: 0%;
     }
