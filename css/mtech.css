@@ -482,6 +482,747 @@
       right: 7%
     }
 }
+
+/*8K*/
+@media only screen 
+  and (min-width: 7680px) 
+  and (max-height: 4320px) 
+  and (-webkit-min-device-pixel-ratio: 1.9) {
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    background: url("../images/background/bacground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px; /* Set the fixed height of the footer here */
+    background-color: #ffffff;
+  }
+
+  #navbar {
+  background-color: transparent; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+  body > .container-fluid {
+    padding: 150px 15px 0;
+  }
+  .container-fluid .text-muted {
+    margin: 20px 0;
+  }
+
+  .footer > .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  .logo-dev {
+      width: 45%;
+      height: auto;
+      margin-left: 115%;
+      padding: 10px 10px 10px 10px;
+  }
+
+  ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0;
+    }
+
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
+
+
+    /* footer social icons */
+
+    .social-network a.icoFacebook:hover {
+      background-color: #005bab;
+    }
+
+    .social-network a.icoLinkedin:hover {
+      background-color: #005bab;
+    }
+
+    .social-network a.icoFacebook i,
+    .social-network a.icoLinkedin i {
+      color: #005bab;
+    }
+
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 20%;
+      border: 2px #005bab solid;
+      text-align: center;
+      width: 100px;
+      height: 100px;
+      font-size: 15px;
+    }
+
+    .social-circle li i {
+      margin: 0;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    /**/
+
+    .social-network a {
+      background-color: #F9F9F9;
+    }
+
+    .copyr {
+        float: right;
+        padding-top: 18px;
+        font-size: 1.8em;
+        color: black;
+    }
+
+    .icon-sosmed{
+      --timeline-bgX: 0%;
+        --timeline-bgY: 60%;
+
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        background: url("../images/Icon-zurich.png") no-repeat;
+        background-position-y: 60%;
+        background-position: var(--timeline-bgX) var(--timeline-bgY);
+        background-size: 800% 200%;
+    }
+
+    .icon--phone {
+      width: 100px;
+      height: 100px;
+      background-position-x: calc((100%/26) * 22.3);
+        --timeline-bgY: 0%;
+    }
+
+    .icon--email {
+      width: 100px;
+      height: 100px;
+      background-position-x: calc((100%/26) * 18.55);
+        --timeline-bgY: 0%;
+    }
+
+    .icon--address {
+      width: 100px;
+      height: 100px;
+      background-position-x: calc((100%/26) * 14.85);
+        --timeline-bgY: 0%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-gap: 10px 10px;
+      grid-template-columns: 60px auto 60px auto 60px auto;
+      padding: 0;
+      margin-left: 20%;
+    }
+
+    .grid-item {
+      padding: 10px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .fheader {
+      font-size: 2.3em;
+      padding: 15px 15px 15px 15px;
+      color: black; 
+      font-weight: bold;
+    }
+
+    .fphone {
+      font-size: 2.2em;
+      padding-top: 25px;
+      text-shadow: 1px 2px 5px #ffffff;
+    }
+
+    .fmail {
+      font-size: 2.2em;
+      padding-top: 25px;
+      text-shadow: 1px 2px 5px #ffffff;
+    }
+
+    .faddress {
+      font-size: 2.2em;
+      padding-top: 10px;
+      text-shadow: 1px 2px 2px #ffffff;
+    }
+
+    .nod-sosmed {
+      float: left; 
+      padding-top: 15px;
+    }
+
+    .fa-2x {
+      font-size: 4em !important;
+    }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
+    }
+
+    .pad-f-phone {
+      right: 7%
+    }
+
+    .pad-f-mail {
+      right: 7%
+    }
+
+    .pad-f-address {
+      right: 7%
+    }
+  }
+
+
+/*4K*/
+@media only screen 
+  and (min-width: 3840px) 
+  and (max-height: 2160px) 
+  and (-webkit-min-device-pixel-ratio: 1.9) {
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    background: url("../images/background/bacground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px; /* Set the fixed height of the footer here */
+    background-color: #ffffff;
+  }
+
+  #navbar {
+  background-color: transparent; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+  body > .container-fluid {
+    padding: 150px 15px 0;
+  }
+  .container-fluid .text-muted {
+    margin: 20px 0;
+  }
+
+  .footer > .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  .logo-dev {
+      width: 45%;
+      height: auto;
+      margin-left: 115%;
+      padding: 10px 10px 10px 10px;
+  }
+
+  ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0;
+    }
+
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
+
+
+    /* footer social icons */
+
+    .social-network a.icoFacebook:hover {
+      background-color: #005bab;
+    }
+
+    .social-network a.icoLinkedin:hover {
+      background-color: #005bab;
+    }
+
+    .social-network a.icoFacebook i,
+    .social-network a.icoLinkedin i {
+      color: #005bab;
+    }
+
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 20%;
+      border: 2px #005bab solid;
+      text-align: center;
+      width: 100px;
+      height: 100px;
+      font-size: 15px;
+    }
+
+    .social-circle li i {
+      margin: 0;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    /**/
+
+    .social-network a {
+      background-color: #F9F9F9;
+    }
+
+    .copyr {
+        float: right;
+        padding-top: 18px;
+        font-size: 1.8em;
+        color: black;
+    }
+
+    .icon-sosmed{
+      --timeline-bgX: 0%;
+        --timeline-bgY: 60%;
+
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        background: url("../images/Icon-zurich.png") no-repeat;
+        background-position-y: 60%;
+        background-position: var(--timeline-bgX) var(--timeline-bgY);
+        background-size: 800% 200%;
+    }
+
+    .icon--phone {
+      width: 100px;
+      height: 100px;
+      background-position-x: calc((100%/26) * 22.3);
+        --timeline-bgY: 0%;
+    }
+
+    .icon--email {
+      width: 100px;
+      height: 100px;
+      background-position-x: calc((100%/26) * 18.55);
+        --timeline-bgY: 0%;
+    }
+
+    .icon--address {
+      width: 100px;
+      height: 100px;
+      background-position-x: calc((100%/26) * 14.85);
+        --timeline-bgY: 0%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-gap: 10px 10px;
+      grid-template-columns: 60px auto 60px auto 60px auto;
+      padding: 0;
+      margin-left: 20%;
+    }
+
+    .grid-item {
+      padding: 10px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .fheader {
+      font-size: 2.3em;
+      padding: 15px 15px 15px 15px;
+      color: black; 
+      font-weight: bold;
+    }
+
+    .fphone {
+      font-size: 2.2em;
+      padding-top: 25px;
+      text-shadow: 1px 2px 5px #ffffff;
+    }
+
+    .fmail {
+      font-size: 2.2em;
+      padding-top: 25px;
+      text-shadow: 1px 2px 5px #ffffff;
+    }
+
+    .faddress {
+      font-size: 2.2em;
+      padding-top: 10px;
+      text-shadow: 1px 2px 2px #ffffff;
+    }
+
+    .nod-sosmed {
+      float: left; 
+      padding-top: 15px;
+    }
+
+    .fa-2x {
+      font-size: 4em !important;
+    }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
+    }
+
+    .pad-f-phone {
+      right: 7%
+    }
+
+    .pad-f-mail {
+      right: 7%
+    }
+
+    .pad-f-address {
+      right: 7%
+    }
+  }
+
+/* QHD */
+@media only screen 
+  and (min-width: 2560px) 
+  and (max-height: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1.9) {
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    background: url("../images/background/bacground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85px; /* Set the fixed height of the footer here */
+    background-color: #ffffff;
+  }
+
+  #navbar {
+  background-color: transparent; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+  body > .container-fluid {
+    padding: 105px 15px 0;
+  }
+  .container-fluid .text-muted {
+    margin: 20px 0;
+  }
+
+  .footer > .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  .logo-dev {
+      width: 35%;
+      height: auto;
+      margin-left: 130%;
+      padding: 10px 10px 10px 10px;
+  }
+
+  ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0;
+    }
+
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
+
+
+    /* footer social icons */
+
+    .social-network a.icoFacebook:hover {
+      background-color: #005bab;
+    }
+
+    .social-network a.icoLinkedin:hover {
+      background-color: #005bab;
+    }
+
+    .social-network a.icoFacebook i,
+    .social-network a.icoLinkedin i {
+      color: #005bab;
+    }
+
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 20%;
+      border: 2px #005bab solid;
+      text-align: center;
+      width: 60px;
+      height: 60px;
+      font-size: 15px;
+    }
+
+    .social-circle li i {
+      margin: 0;
+      line-height: 60px;
+      text-align: center;
+    }
+
+    .social-network a {
+      background-color: #F9F9F9;
+    }
+
+    .copyr {
+        float: right;
+        padding-top: 18px;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    .icon-sosmed{
+      --timeline-bgX: 0%;
+        --timeline-bgY: 60%;
+
+        display: block;
+        margin: 0 auto;
+        width: 60px;
+        height: 60px;
+        background: url("../images/Icon-zurich.png") no-repeat;
+        background-position-y: 60%;
+        background-position: var(--timeline-bgX) var(--timeline-bgY);
+        background-size: 800% 200%;
+    }
+
+    .icon--phone {
+      width: 60px;
+      height: 60px;
+      background-position-x: calc((100%/26) * 22.3);
+        --timeline-bgY: 0%;
+    }
+
+    .icon--email {
+      width: 60px;
+      height: 60px;
+      background-position-x: calc((100%/26) * 18.55);
+        --timeline-bgY: 0%;
+    }
+
+    .icon--address {
+      width: 60px;
+      height: 60px;
+      background-position-x: calc((100%/26) * 14.85);
+        --timeline-bgY: 0%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-gap: 10px 10px;
+      grid-template-columns: 60px auto 60px auto 60px auto;
+      padding: 0;
+      margin-left: 20%;
+    }
+
+    .grid-item {
+      padding: 10px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .fheader {
+      font-size: 1.4em;
+      padding: 5px 5px 5px 5px;
+      color: black; 
+      font-weight: bold;
+    }
+
+    .fphone {
+      font-size: 1.3em;
+      padding-top: 15px;
+      text-shadow: 1px 2px 5px #ffffff;
+    }
+
+    .fmail {
+      font-size: 1.3em;
+      padding-top: 15px;
+      text-shadow: 1px 2px 5px #ffffff;
+    }
+
+    .faddress {
+      font-size: 1.3em;
+      padding-top: 10px;
+      text-shadow: 1px 2px 2px #ffffff;
+    }
+
+    .nod-sosmed {
+      float: left; 
+      padding-top: 15px;
+    }
+
+    .fa-2x {
+      font-size: 2.4em !important;
+    }
+
+    .pad-phone {
+      left: 20%;
+    }
+    .pad-mail {
+      left: 3%;
+    }
+    .pad-address {
+      right: 15%;
+    }
+
+    .pad-f-phone {
+      right: 10%
+    }
+
+    .pad-f-mail {
+      right: 10%
+    }
+
+    .pad-f-address {
+      right: 10%
+    }
+
+  }
 @media screen and (max-width: 2460px) {
   html {
   position: relative;
