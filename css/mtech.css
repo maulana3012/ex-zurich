@@ -229,15 +229,15 @@
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 
 @media screen and (max-width: 2960px) {
@@ -471,15 +471,15 @@
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 }
 
@@ -718,15 +718,15 @@
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
   }
 
@@ -966,15 +966,15 @@
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
   }
 
@@ -1694,15 +1694,15 @@
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 }
 
@@ -1955,15 +1955,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;;
     }
  }
 
@@ -2109,6 +2109,82 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 1.1em;
         color: black;
     }
+
+    .icon-sosmed{
+      display: none;
+    }
+
+    .icon--phone {
+      display: none;
+    }
+
+    .icon--email {
+      display: none;
+    }
+
+    .icon--address {
+      display: none;
+    }
+
+    .grid-container {
+      display: none;
+    }
+
+    .grid-item {
+      display: none;
+    }
+
+    .fheader {
+      display: none;
+    }
+
+    .fphone {
+      display: none;
+    }
+
+    .fmail {
+      display: none;
+    }
+
+    .faddress {
+      display: none;
+    }
+
+    .nod {
+      display: none;
+    }
+
+    .nod-i {
+      display: none;
+    }
+
+    .nod-sosmed {
+      display: none;
+    }
+
+    .pad-phone {
+      display: none;
+    }
+    .pad-mail {
+      display: none;
+    }
+    .pad-address {
+      display: none;
+    }
+
+    .pad-f-phone {
+      display: none;
+    }
+
+    .pad-f-mail {
+      display: none;
+    }
+
+    .pad-f-address {
+      display: none;
+    }
+
+
 }
 
 @media only screen 
@@ -2360,15 +2436,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 
 }
@@ -2514,6 +2590,80 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-top: 25px;
         font-size: 1.1em;
         color: black;
+    }
+
+    .icon-sosmed{
+      display: none;
+    }
+
+    .icon--phone {
+      display: none;
+    }
+
+    .icon--email {
+      display: none;
+    }
+
+    .icon--address {
+      display: none;
+    }
+
+    .grid-container {
+      display: none;
+    }
+
+    .grid-item {
+      display: none;
+    }
+
+    .fheader {
+      display: none;
+    }
+
+    .fphone {
+      display: none;
+    }
+
+    .fmail {
+      display: none;
+    }
+
+    .faddress {
+      display: none;
+    }
+
+    .nod {
+      display: none;
+    }
+
+    .nod-i {
+      display: none;
+    }
+
+    .nod-sosmed {
+      display: none;
+    }
+
+    .pad-phone {
+      display: none;
+    }
+    .pad-mail {
+      display: none;
+    }
+    .pad-address {
+      display: none;
+    }
+
+    .pad-f-phone {
+      display: none;
+    }
+
+    .pad-f-mail {
+      display: none;
+    }
+
+    .pad-f-address {
+      display: none;
     }
 }
 
@@ -2766,15 +2916,15 @@ and (orientation : portrait) {
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 }
 
@@ -2919,6 +3069,80 @@ html {
         padding-top: 25px;
         font-size: 1.1em;
         color: black;
+    }
+
+    .icon-sosmed{
+      display: none;
+    }
+
+    .icon--phone {
+      display: none;
+    }
+
+    .icon--email {
+      display: none;
+    }
+
+    .icon--address {
+      display: none;
+    }
+
+    .grid-container {
+      display: none;
+    }
+
+    .grid-item {
+      display: none;
+    }
+
+    .fheader {
+      display: none;
+    }
+
+    .fphone {
+      display: none;
+    }
+
+    .fmail {
+      display: none;
+    }
+
+    .faddress {
+      display: none;
+    }
+
+    .nod {
+      display: none;
+    }
+
+    .nod-i {
+      display: none;
+    }
+
+    .nod-sosmed {
+      display: none;
+    }
+
+    .pad-phone {
+      display: none;
+    }
+    .pad-mail {
+      display: none;
+    }
+    .pad-address {
+      display: none;
+    }
+
+    .pad-f-phone {
+      display: none;
+    }
+
+    .pad-f-mail {
+      display: none;
+    }
+
+    .pad-f-address {
+      display: none;
     }
 }
 
@@ -3173,15 +3397,15 @@ html {
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
  }
 
@@ -3325,6 +3549,80 @@ html {
         padding-top: 25px;
         font-size: 1.1em;
         color: black;
+    }
+
+    .icon-sosmed{
+      display: none;
+    }
+
+    .icon--phone {
+      display: none;
+    }
+
+    .icon--email {
+      display: none;
+    }
+
+    .icon--address {
+      display: none;
+    }
+
+    .grid-container {
+      display: none;
+    }
+
+    .grid-item {
+      display: none;
+    }
+
+    .fheader {
+      display: none;
+    }
+
+    .fphone {
+      display: none;
+    }
+
+    .fmail {
+      display: none;
+    }
+
+    .faddress {
+      display: none;
+    }
+
+    .nod {
+      display: none;
+    }
+
+    .nod-i {
+      display: none;
+    }
+
+    .nod-sosmed {
+      display: none;
+    }
+
+    .pad-phone {
+      display: none;
+    }
+    .pad-mail {
+      display: none;
+    }
+    .pad-address {
+      display: none;
+    }
+
+    .pad-f-phone {
+      display: none;
+    }
+
+    .pad-f-mail {
+      display: none;
+    }
+
+    .pad-f-address {
+      display: none;
     }
 }
 
@@ -3578,15 +3876,15 @@ html {
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 }
 
@@ -3730,6 +4028,80 @@ html {
         padding-top: 25px;
         font-size: 1.1em;
         color: black;
+    }
+
+    .icon-sosmed{
+      display: none;
+    }
+
+    .icon--phone {
+      display: none;
+    }
+
+    .icon--email {
+      display: none;
+    }
+
+    .icon--address {
+      display: none;
+    }
+
+    .grid-container {
+      display: none;
+    }
+
+    .grid-item {
+      display: none;
+    }
+
+    .fheader {
+      display: none;
+    }
+
+    .fphone {
+      display: none;
+    }
+
+    .fmail {
+      display: none;
+    }
+
+    .faddress {
+      display: none;
+    }
+
+    .nod {
+      display: none;
+    }
+
+    .nod-i {
+      display: none;
+    }
+
+    .nod-sosmed {
+      display: none;
+    }
+
+    .pad-phone {
+      display: none;
+    }
+    .pad-mail {
+      display: none;
+    }
+    .pad-address {
+      display: none;
+    }
+
+    .pad-f-phone {
+      display: none;
+    }
+
+    .pad-f-mail {
+      display: none;
+    }
+
+    .pad-f-address {
+      display: none;
     }
 }
 /*end iphone 6,7,8*/
@@ -3982,15 +4354,15 @@ html {
     }
 
     .pad-f-phone {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-mail {
-      right: 7%
+      right: 7%;
     }
 
     .pad-f-address {
-      right: 7%
+      right: 7%;
     }
 }
 
@@ -4134,5 +4506,79 @@ html {
         padding-top: 25px;
         font-size: 1.1em;
         color: black;
+    }
+
+    .icon-sosmed{
+      display: none;
+    }
+
+    .icon--phone {
+      display: none;
+    }
+
+    .icon--email {
+      display: none;
+    }
+
+    .icon--address {
+      display: none;
+    }
+
+    .grid-container {
+      display: none;
+    }
+
+    .grid-item {
+      display: none;
+    }
+
+    .fheader {
+      display: none;
+    }
+
+    .fphone {
+      display: none;
+    }
+
+    .fmail {
+      display: none;
+    }
+
+    .faddress {
+      display: none;
+    }
+
+    .nod {
+      display: none;
+    }
+
+    .nod-i {
+      display: none;
+    }
+
+    .nod-sosmed {
+      display: none;
+    }
+
+    .pad-phone {
+      display: none;
+    }
+    .pad-mail {
+      display: none;
+    }
+    .pad-address {
+      display: none;
+    }
+
+    .pad-f-phone {
+      display: none;
+    }
+
+    .pad-f-mail {
+      display: none;
+    }
+
+    .pad-f-address {
+      display: none;
     }
 }
