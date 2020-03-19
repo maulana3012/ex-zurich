@@ -2073,7 +2073,7 @@ and (orientation : landscape) {
     }
 
     .timeline-chapters {
-        line-height: 16px !important;
+        line-height: 40px !important;
     }
 
     .fullscreen .timeline-chapters {
@@ -2379,7 +2379,7 @@ and (orientation : landscape) {
     }
 
     .timeline-chapters {
-        line-height: 16px !important;
+        line-height: 40px !important;
     }
 
     .fullscreen .timeline-chapters {
@@ -2684,7 +2684,7 @@ and (orientation : landscape) {
     }
 
     .timeline-chapters {
-        line-height: 16px !important;
+        line-height: 40px !important;
     }
 
     .fullscreen .timeline-chapters {
@@ -2988,7 +2988,7 @@ and (orientation : landscape) {
     }
 
     .timeline-chapters {
-        line-height: 16px !important;
+        line-height: 40px !important;
     }
 
     .fullscreen .timeline-chapters {
