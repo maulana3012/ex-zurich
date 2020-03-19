@@ -2159,7 +2159,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .nod-sosmed {
-      display: none;
+      float: left; 
+      padding-top: 15px;
     }
 
     .pad-phone {
@@ -2641,7 +2642,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .nod-sosmed {
-      display: none;
+      float: left; 
+      padding-top: 15px;
     }
 
     .pad-phone {
@@ -3120,7 +3122,8 @@ html {
     }
 
     .nod-sosmed {
-      display: none;
+      float: left; 
+      padding-top: 15px;
     }
 
     .pad-phone {
@@ -3600,7 +3603,8 @@ html {
     }
 
     .nod-sosmed {
-      display: none;
+      float: left; 
+      padding-top: 15px;
     }
 
     .pad-phone {
@@ -4079,7 +4083,8 @@ html {
     }
 
     .nod-sosmed {
-      display: none;
+      float: left; 
+      padding-top: 15px;
     }
 
     .pad-phone {
@@ -4557,7 +4562,8 @@ html {
     }
 
     .nod-sosmed {
-      display: none;
+      float: left; 
+      padding-top: 15px;
     }
 
     .pad-phone {
