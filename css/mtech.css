@@ -142,6 +142,7 @@
         height: 200px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y:0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
@@ -387,6 +388,7 @@
         height: 100px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y:0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
@@ -634,6 +636,7 @@
         height: 100px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y:0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
@@ -882,6 +885,7 @@
         height: 100px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y:0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
@@ -1127,6 +1131,7 @@
         height: 60px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y:0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
@@ -1368,6 +1373,7 @@
         height: 60px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y:0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
@@ -1610,6 +1616,7 @@
         height: 60px;
         background: url("../images/Icon-zurich.png") no-repeat;
         background-position-y: 60%;
+        -ms-background-position-y: 0%;
         background-position: var(--timeline-bgX) var(--timeline-bgY);
         background-size: 800% 200%;
     }
