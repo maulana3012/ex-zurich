@@ -85,7 +85,7 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Example-1",
+            "label": "Selamat Datang",
             "states": [
                 {
                     "cardId": "START",
@@ -94,7 +94,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Example-2",
+            "label": "Informasi Polis",
             "states": [
                 {
                     "cardId": "77a834f0",
@@ -103,7 +103,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Example-3",
+            "label": "Konfirmasi Polis",
             "states": [
                 {
                     "cardId": "7b0123a5",
@@ -112,7 +112,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Example-4",
+            "label": "Thank You",
             "states": [
                 {
                     "cardId": "7b0123a5",

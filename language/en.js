@@ -114,37 +114,37 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Example-1",
+            "label": "Selamat Datang",
             "states": [
                 {
-                    "cardId": "START",
+                    "cardId": "253cdfdc",
                     "width": 25
                 }
             ]
         },
         {
-            "label": "Example-2",
+            "label": "Informasi Polis",
             "states": [
                 {
-                    "cardId": "77a834f0",
+                    "cardId": "9fb413a2",
                     "width": 25
                 }
             ]
         },
         {
-            "label": "Example-3",
+            "label": "Konfirmasi Polis",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "9a27b1b3",
                     "width": 25
                 }
             ]
         },
         {
-            "label": "Example-4",
+            "label": "Thank You",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "end",
                     "width": 25
                 }
             ]
