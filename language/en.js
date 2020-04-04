@@ -126,7 +126,7 @@ var Translations = {
             "label": "Informasi Polis",
             "states": [
                 {
-                    "cardId": "9fb413a2",
+                    "cardId": "253cdfdc",
                     "width": 25
                 }
             ]
@@ -135,7 +135,7 @@ var Translations = {
             "label": "Konfirmasi Polis",
             "states": [
                 {
-                    "cardId": "9a27b1b3",
+                    "cardId": "9fb413a2",
                     "width": 25
                 }
             ]
