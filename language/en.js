@@ -117,7 +117,7 @@ var Translations = {
             "label": "Selamat Datang",
             "states": [
                 {
-                    "cardId": "253cdfdc",
+                    "cardId": "START",
                     "width": 25
                 }
             ]
@@ -144,7 +144,7 @@ var Translations = {
             "label": "Thank You",
             "states": [
                 {
-                    "cardId": "end",
+                    "cardId": "END",
                     "width": 25
                 }
             ]
