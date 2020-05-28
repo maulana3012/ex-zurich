@@ -141,7 +141,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Thank You",
+            "label": "Terima Kasih",
             "states": [
                 {
                     "cardId": "a587086c",
